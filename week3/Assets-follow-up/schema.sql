@@ -51,6 +51,7 @@ CREATE TABLE Repairs (
     FOREIGN KEY (TechnicianID) REFERENCES Technicians(TechnicianID)
 );
 
+
 -- a view table for assets currently under repair
 CREATE VIEW AssetsOnRepair AS
 SELECT 
